@@ -10,17 +10,27 @@ const Dashboard = ({ children }) => {
         </Link>
 
         <div className="flex flex-col mt-10 gap-5 ">
-          <Link className="py-2 px-4 bg-gray-600 w-full" href={"/add-story"}>
+          <Link
+            className="py-2 px-4 bg-gray-600 w-full"
+            href={"/dashboard/add-story"}
+          >
             Add Story
           </Link>
-          <Link className="py-2 px-4 bg-gray-600 w-full" href={"/my-profile"}>
+          <Link
+            className="py-2 px-4 bg-gray-600 w-full"
+            href={"/dashboard/my-profile"}
+          >
             My Profile
           </Link>
-          <Link className="py-2 px-4 bg-gray-600 w-full" href={"/settings"}>
+          <Link
+            className="py-2 px-4 bg-gray-600 w-full"
+            href={"/dashboard/settings"}
+          >
             Settings
           </Link>
         </div>
       </div>
+      <div className="col-span-9 ">{children}</div>
     </div>
   );
 };
