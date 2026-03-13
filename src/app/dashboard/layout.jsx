@@ -26,7 +26,7 @@ const Dashboard = ({ children }) => {
             className="py-2 px-4 bg-gray-600 w-full"
             href={"/dashboard/settings"}
           >
-            Settings
+            Setting
           </Link>
         </div>
       </div>
