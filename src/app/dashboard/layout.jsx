@@ -8,7 +8,7 @@ const Dashboard = ({ children }) => {
         <Link href={"/"} className="text-2xl font-bold">
           🔥 Dev Story
         </Link>
-
+        {/* Hello */}
         <div className="flex flex-col mt-10 gap-5 ">
           <Link
             className="py-2 px-4 bg-gray-600 w-full"
